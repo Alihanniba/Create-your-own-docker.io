@@ -32,3 +32,6 @@ so 把自己的经历写下来.
 ![](./install5.jpeg)
 
 
+
+---
+![](./alihanniba.png)
