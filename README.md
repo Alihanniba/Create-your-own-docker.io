@@ -110,7 +110,13 @@ docker ps -l
 ```
 docker rmi 
 ```
-有时候这个命令并不能删除容器,所以执行docker ps -l 查看正在执行的容器,使用docker rm (container id) 命令先删除在使用的容器,有时候会出现错误,有可能是这个容器正在运行,那就先停止docker stop (container id)再删除,然后在执行docker rmi命令,删除容器.
+有时候这个命令并不能删除容器,所以执行docker ps -l 查看正在执行的容器.
+
+使用docker rm (container id) 命令先删除在使用的容器.
+
+有时候会出现错误,有可能是这个容器正在运行,那就先停止docker stop (container id)再删除.
+
+然后在执行docker rmi命令,删除容器.
 	
 ![](./img/docker-rm.png)
 
@@ -167,6 +173,7 @@ docker run -t -i ubuntu:14.04 /bin/bash
 接下来就是完全在ubuntu系统里的操作了.
 
 更新下apt-get.
+
 ![](./img/in-ubuntu.png)
 
 然后在ubuntu里再下载一个nginx,原谅我如此钟爱nignx......
@@ -203,6 +210,8 @@ curl -I http://localhost:8080
 
 
 #[ubuntu配置环境可以参考这里](https://github.com/alihanniba/IDE-install-for-Ubuntu14.04)
+
+apache.nginx 配置差别不大
 
 ---
 ![](./img/alihanniba.png)
