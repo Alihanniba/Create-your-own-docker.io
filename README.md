@@ -9,6 +9,7 @@ Docker是一个开源的引擎，可以轻松的为任何应用创建一个轻�
 ### 第一步:先注册个docker账号吧.反正总要用到的.
 **[点击这里注册账号](https://hub.docker.com/)**
 
+
 ![](./img/register.png)
 
 ### 第二步:下载docker
