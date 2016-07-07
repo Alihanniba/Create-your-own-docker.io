@@ -213,7 +213,7 @@ curl -I http://localhost:8080
 
 apache.nginx 配置差别不大
 
-**[Create-your-own-docker.io第二节](https://github.com/alihanniba/Create-your-own-docker.io/README2.md)**
+**[Create-your-own-docker.io第二节](https://github.com/alihanniba/Create-your-own-docker.io/blob/master/README2.md)**
 
 ---
 ![](./img/alihanniba.png)
